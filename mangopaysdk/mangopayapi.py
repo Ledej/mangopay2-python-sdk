@@ -4,7 +4,7 @@ from mangopaysdk.configuration import Configuration
 from mangopaysdk.tools.storages.authorizationtokenmanager import AuthorizationTokenManager
 
 
-class MangoPayApi:
+class MangoPayApi(object):
 
     """MangoPay API main entry point.
     Provides managers to connect, send and read data from MangoPay API
